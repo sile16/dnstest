@@ -8,9 +8,9 @@ import time
 import traceback
 
 
-dns_server = "192.168.142.136"
+dns_server = "192.168.142.150"
 log_file = "log_data"
-dns_name = "isi200.lappy.lab"
+dns_name = "isi150.lappy.lab"
 
 
 class DNSQueryWorker(threading.Thread):
